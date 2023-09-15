@@ -1,4 +1,8 @@
 import matplotlib.pyplot as plt
+import sqlite3 as sql
+dbfile = sql.connect('climate.db')
+
+yrdata = SELECT * FROM 'Year'
         
 years = []
 co2 = []
